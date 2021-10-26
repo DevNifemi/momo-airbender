@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.kokainu.io/wp-content/uploads/2021/05/Sni%CC%81mka-obrazovky-2021-08-09-o-12.33.44.png');
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 500px;
+    color: #C99B46 !important;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.laptop-nav{
+    display: none !important;
+}
+nav{
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 110 !important;
+}
+.logo{
+    display: flex;
+    align-items: center !important;
+    font-size: 18px;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.logo img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 16px;
+    margin-left: 20px;
+}
+.navigations{
+    display: flex;
+    padding-right: 40px;
+}
+.navigations li{
+    list-style: none;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h1{
+    font-size: 2em !important;
+}
+
+.banner{
+    background-image: url('https://www.kokainu.io/wp-content/uploads/2021/05/Sni%CC%81mka-obrazovky-2021-08-09-o-12.33.44.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-height: 400px; */
+    height: 600px;
+    overflow: hidden;
+}
+
+.banner-image{
+    display: block;
+    margin: -5px auto;
+    object-fit: contain;
+    object-position: center;
+    width: 60em;
+    height: 80%;
+}
+.about-us{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    place-items: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+}
+.about-us-details{
+    color: #C99B46;
+    margin-top: -100px;
+}
+.about-us-details p{
+    font-size: 16px;
+    text-align: justify;
+    word-spacing: 3px;
+    line-height: 28px;
+    font-weight: bolder !important;
+}
+.token-section{
+   background-color: #333C3F;
+   padding: 10px;
+}
+.our-token{
+   display: grid;
+   grid-template-columns: 50% 42%;
+   place-items: center;
+   justify-content: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.token-image{
+    width: 100%;
+    height: 100%;
+}
+.token-details{
+    margin-top: -150px;
+    margin-left: -40px;
+}
+.token-details p{
+    font-size: 15.99px;
+    text-align: justify;
+    /* word-spacing: 3px; */
+    color: #C99B46;
+    line-height: 25px;
+    font-weight: bolder !important;
+}
+.token-image img{
+    width: 90%;
+    height: 100%;
+}
+.token-header{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #C99B46;
+}
+.ntf-section{
+    margin-top: 90px;
+}
+.ntf-list li{
+    list-style-type: decimal;
+    padding-top: 20px;
+    font-size: 16px;
+}
+.ntf-header{
+    text-align: center;
+}
+.ntf-container{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    column-gap: 30px;
+    place-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+.ntf-image{
+    width: 100%;
+    height: 100%;
+}
+.footer span{
+    color: blue;
+}
+.ntf-image img{
+    width: 100%;
+    height: 100%;
+}
+button{
+    background: #C99B46;
+    border: none;
+    outline: none;
+    padding: 13px 20px;
+    border-radius: 5px;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+.ntf-btn{
+    margin-top: 30px;
+    /* width: 100%; */
+}
+.cardes a{
+    color: green !important;
+}
+.cardes{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 30px;
+    border-color: #C99B46;
+    margin: 10px;
+    padding: 20px;
+}
+.cardes:first-child{
+    margin-right: 100px;
+}
+.card-img{
+    width: 13em;
+    height: 13em;
+
+    display: flex;
+    justify-content: center !important;
+}
+.center{
+    text-align: center;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-position: center;
+    object-fit: cover;
+}
+.card-section{
+    display: flex !important;
+    margin-top: 80px;
+    justify-content: center !important;
+}
+
+.card-section .cardes h1 {
+    text-align: center;
+}
+
+.card-section .cardes .card-img {
+    margin: auto;
+}
+.roadmap{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column;
+    /* width: 90%; */
+}
+.roadmap-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.tokenomics-graph {
+    display: flex;
+    justify-content: center;
+}
+.tokenomics-graph img{
+    width: 50%;
+}
+.copyright p{
+    width: 90%;
+    text-align: center;
+}
+.member{
+    width: 90%;
+    display: block;
+    margin: 40px auto;
+}
+.member p{
+    margin-top: 50px;
+}
+.copyright{
+    border-top: 1px solid rgba(238, 238, 238, 0.1);;
+    padding-bottom: 27px;
+    padding-top: 27px;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: grey;
+}
+footer{
+    border: 2px solid #e1e5ea;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    nav{
+        display: none !important;
+    }
+    .laptop-nav{
+        display: block !important;
+        background: transparent !important;
+    }
+    .navbar-brand{
+        color: #fff !important;
+    }
+    .navbar-toggler {
+        color: #fff !important;
+        background-color: #fff;
+
+    }
+    .about-us{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about-us-details{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+    }
+    .ntf-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .card-section{
+        flex-direction: column;
+    }
+    .roadmap-cards img{
+        width: 90%;
+    }
+    .our-token{
+        display: flex;
+        flex-direction: column;
+    }
+    .token-details{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .banner{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+    }
+    .banner-image{
+        display: block;
+        margin: 0px auto;
+        object-fit: contain;
+        object-position: center;
+        width: 100%;
+        height: 100%;
+    }
+    .banner-image img{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+    }
+    .our-token{
+        margin-bottom: 10px;
+    }
+    .token-image{
+        display: flex;
+        justify-content: center;
+    }
+    .token-image img{
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+        object-position: center;
+    }
+    .ntf-list li{
+        padding-top: 15px;
+        list-style-type: decimal;
+    }
+    .ntf-list{
+        padding-left: 20px !important;
+        width: 100%;
+    }
+    .cardes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  
+    .cardes:first-child{
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .card-section{
+        width: 93%;
+        display: block;
+        margin: 0 auto;
+    }
+    .cardes h2{
+        font-size: 1.3em;
+        margin-top: 10px;
+    }
+    .cardes p{
+        margin-top: 10px;
+        text-align: center !important;
+    }
+}
