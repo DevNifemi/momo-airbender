@@ -239,6 +239,28 @@ button{
     width: 90%;
     justify-content: center !important;
 }
+.tokenomics{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.tokenomics-header{
+    margin-top: 100px;
+    margin-bottom: -10px;
+}
+.token-card{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 40px;
+    padding: 10px;
+    color: #FFFF !important;
+    background: #C99B46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
 .card-sect{
     display: grid;
     place-items: center;
@@ -375,6 +397,21 @@ footer{
         width: 90%;
         justify-content: center;
     }
+    .tokenomics{
+        display: grid;
+        place-items: center;
+        margin: 0 auto;
+        width: 100%;
+        overflow: hidden !important;
+    }
+    .token-card{
+        /* width: 50%; */
+        height: 200px;
+        width: 200px;
+        margin-top: 40px;
+        padding: 10px;
+        /* height: 50%; */
+    }
     .ntf-container{
         display: flex;
         flex-direction: column-reverse;
@@ -454,5 +491,11 @@ footer{
     .cardes p{
         margin-top: 10px;
         text-align: center !important;
+    }
+    .logo img{
+        margin-left: 2px !important;
+    }
+    .logo{
+        margin-left: 0 !important;
     }
 }
