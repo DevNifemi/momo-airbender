@@ -59,7 +59,6 @@ h1{
 }
 
 .banner{
-    background-image: url('../image/banner.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -181,6 +180,10 @@ button{
 }
 .cardes a{
     color: green !important;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
 }
 .cardes{
     border-style: solid;
@@ -189,9 +192,7 @@ button{
     border-color: #C99B46;
     margin: 10px;
     padding: 20px;
-}
-.cardes:first-child{
-    margin-right: 50px;
+    width: 50%;
 }
 .card-img{
     width: 13em;
@@ -201,7 +202,7 @@ button{
     justify-content: center !important;
 }
 .center{
-    text-align: center;
+    text-align: center !important;
 }
 .card-img img{
     width: 100%;
@@ -212,7 +213,7 @@ button{
 }
 .card-section{
     display: flex !important;
-    margin-top: 80px;
+    margin-top: 0;
     width: 90%;
     justify-content: center !important;
 }
@@ -234,6 +235,9 @@ button{
     flex-direction: column;
     /* width: 90%; */
 }
+.nav-link{
+    color: #fff !important;
+}
 .roadmap-cards{
     display: flex;
     justify-content: center;
@@ -245,6 +249,9 @@ button{
 }
 .tokenomics-graph img{
     width: 50%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
 }
 .copyright p{
     width: 90%;
@@ -405,12 +412,9 @@ footer{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 100%;
     }
-  
-    .cardes:first-child{
-        margin-right: 0;
-        margin-bottom: 40px;
-    }
+
     .card-section{
         width: 93%;
         display: block;
