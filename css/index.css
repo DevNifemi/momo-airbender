@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('https://www.kokainu.io/wp-content/uploads/2021/05/Sni%CC%81mka-obrazovky-2021-08-09-o-12.33.44.png');
+    background-image: url('../image/banner.jpeg');
     background-attachment: fixed;
     font-family: 'Montserrat', sans-serif;
     min-height: 500px;
@@ -59,7 +59,7 @@ h1{
 }
 
 .banner{
-    background-image: url('https://www.kokainu.io/wp-content/uploads/2021/05/Sni%CC%81mka-obrazovky-2021-08-09-o-12.33.44.png');
+    background-image: url('../image/banner.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@ h1{
 }
 .token-section{
    background-color: #333C3F;
-   padding: 10px;
+   padding: 30px 10px;
 }
 .our-token{
    display: grid;
@@ -191,7 +191,7 @@ button{
     padding: 20px;
 }
 .cardes:first-child{
-    margin-right: 100px;
+    margin-right: 50px;
 }
 .card-img{
     width: 13em;
@@ -213,9 +213,13 @@ button{
 .card-section{
     display: flex !important;
     margin-top: 80px;
+    width: 90%;
     justify-content: center !important;
 }
-
+.card-sect{
+    display: grid;
+    place-items: center;
+}
 .card-section .cardes h1 {
     text-align: center;
 }
@@ -268,8 +272,37 @@ footer{
     border: 2px solid #e1e5ea;
     border-radius: 10px;
 }
-
-
+.buy-container{
+    margin: 0px auto;
+    display: block;
+    width: 100%;
+}
+.buy-sect{
+    display: grid;
+    grid-template-columns: 35% 60%;
+    align-items: baseline;
+    place-items: center;
+    margin-top: 100px;
+    width: 100%;
+}
+.buy-image{
+    width: 10em;
+    height: 10em;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: -50px;
+}
+.how-to-buy{
+    width: 100%;
+    text-align: center;
+}
+.buy-image img{
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+    height: 100%;
+}
 
 @media screen and (max-width: 600px) {
     nav{
@@ -286,6 +319,16 @@ footer{
         color: #fff !important;
         background-color: #fff;
 
+    }
+    .buy-image{
+        margin-bottom: 70px;
+    }
+    .buy-sect{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: baseline;
+        place-items: center;
+        margin-top: 70px;
     }
     .about-us{
         display: flex;
