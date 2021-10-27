@@ -86,7 +86,7 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
     height: 620px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .banner-image{
